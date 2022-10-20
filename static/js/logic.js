@@ -5,7 +5,7 @@
     var basemaps;    
     var overlays;
     var streetLayer;
-    var smoothdarkLayer;
+    var darkLayer;
     var topoLayer;
     var watercolorLayer;
     var platesLayer;
@@ -36,10 +36,10 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         });
 
-        // smoothdark layer
-        smoothdarkLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-            maxZoom: 20,
-            attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+        // dark layer
+        darkLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            subdomains: 'abcd', minZoom: 1, maxZoom: 16, ext: 'png'
         });
 
         // topography layer
@@ -81,7 +81,7 @@
     {
         // define maps
         basemaps = {
-            '<span style=font-size:15px>Smooth Dark</span>': smoothdarkLayer,
+            '<span style=font-size:15px>Dark</span>': darkLayer,
             '<span style=font-size:15px>Watercolor</span>': watercolorLayer,            
             '<span style=font-size:15px>Topography</span>': topoLayer,
             '<span style=font-size:15px>Street</span>': streetLayer};
@@ -152,7 +152,7 @@
                 color = colordepth[i][1];                
                 descript = colordepth[i][2];
 
-                div.innerHTML += `<tr style=font-size:15px><td bgcolor=${color}>&nbsp;&nbsp;&nbsp;</td><td align = right><b>${descript} km</b></td></tr>`
+                div.innerHTML += `<tr style=font-size:15px><td bgcolor=${color}>&nbsp;&nbsp;&nbsp;</td><td align=right bgcolor=white><b>${descript} km</b></td></tr>`
             }
             return div;;}
 
