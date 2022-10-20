@@ -5,7 +5,7 @@
     var basemaps;    
     var overlays;
     var streetLayer;
-    var greyscaleLayer;
+    var smoothdarkLayer;
     var topoLayer;
     var watercolorLayer;
     var platesLayer;
@@ -36,8 +36,9 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         });
 
-        // greyscale layer
-        greyscaleLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', { maxZoom: 20,
+        // smoothdark layer
+        smoothdarkLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+            maxZoom: 20,
             attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
         });
 
@@ -80,7 +81,7 @@
     {
         // define maps
         basemaps = {
-            '<span style=font-size:15px>Greyscale</span>': greyscaleLayer,
+            '<span style=font-size:15px>Smooth Dark</span>': smoothdarkLayer,
             '<span style=font-size:15px>Watercolor</span>': watercolorLayer,            
             '<span style=font-size:15px>Topography</span>': topoLayer,
             '<span style=font-size:15px>Street</span>': streetLayer};
