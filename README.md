@@ -6,19 +6,20 @@ Viewing belly button bacteria data is informative but, visualizing that data giv
 
 # ![banner](images/belly.PNG)
 - The site contains:
-  - a responsive home page with a drop down menu of test subjects
-  - a demographic panel for a selected subject
-  - a color coded bar graph of the top 10 bacteria populations for a subject
-  - a responsive guage showing wash frequency for a subject
-  - a color coded bubble chart of the bacteria populations for a subject
+  - interactive maps of the US and World
+  - several styles choices of visual map layers 
+  - selectable overlays of earthquake data and tectonic plate boundaries
+  - responsive popup marker of earthquake facts
+  - a color coded legend of earthquake magnitudes
  
 - Key technologies include:
   - BootStrap js library
   - D3 js library  
-  - Plotly js library
   - Javascript
-  - Github Pages
+  - Leaflet
+  - CSS
   
 
 - References
-  - NC State, The Public Science Lab. (2017). Belly Button Data Sets. Retrieved from http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
+  - USGS, U.S. Geological Survey. (2022). Past 7 Days All Earthquakes. Retrieved from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+  - Hugo Ahlenius, Github Tectonic Plates GeoJson. (October 2, 2014). PB2002_boundaries data. Retrieved from https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
