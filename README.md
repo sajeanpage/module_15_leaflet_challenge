@@ -21,4 +21,5 @@ Viewing belly button bacteria data is informative but, visualizing that data giv
   
 
 - References
-  - NC State, The Public Science Lab. (2017). Belly Button Data Sets. Retrieved from http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
+  - USGS, U.S. Geological Survey. (2022). Past 7 Days All Earthquakes. Retrieved from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+  - Hugo Ahlenius, Github Tectonic Plates. (2022). PB2002_boundaries GeoJson Data. Retrieved from https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
