@@ -1,8 +1,8 @@
 # Module 15 Leaflet Challenge
 ## Summary
 
-Viewing belly button bacteria data is informative but, visualizing that data gives a perspective of diversity and scale that viewing data can not. In this challenge I built an interactive web page that allows viewers to easily visualizing belly button bacteria data.  
-- Visit the final form here:  https://sajeanpage.github.io/module_14_belly_button_challenge/
+The United States Geological Survey (USGS), is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. I have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations on issues facing our planet.  
+- Visit the final form here:  https://sajeanpage.github.io/module_15_leaflet_challenge/
 
 # ![banner](Images/topo_map.PNG)
 - The site contains:
