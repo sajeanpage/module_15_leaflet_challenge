@@ -71,8 +71,8 @@
         });
 
         overlays = {
-            'Techtonic Plates': platesLayer,
-            'Earthquake Data': quakesLayer};       
+            '<span style=font-size:15px>Techtonic Plates</span>': platesLayer,
+            '<span style=font-size:15px>Earthquake Data</span>': quakesLayer};       
     }
 
     // --------------------------------------------------------------------------------
@@ -80,16 +80,19 @@
     {
         // define maps
         basemaps = {
-            'Greyscale': greyscaleLayer,
-            'Watercolor': watercolorLayer,            
-            'Topography': topoLayer,
-            'Street': streetLayer};
+            '<span style=font-size:15px>Greyscale</span>': greyscaleLayer,
+            '<span style=font-size:15px>Watercolor</span>': watercolorLayer,            
+            '<span style=font-size:15px>Topography</span>': topoLayer,
+            '<span style=font-size:15px>Street</span>': streetLayer};
 
         // map object with default
         baseMap = L.map("map", { center: [36.00, -100.00], zoom: 5, layers:[streetLayer]});    
         
         // bind layers
-        L.control.layers(basemaps, overlays).addTo(baseMap);
+        L.control.layers(basemaps, overlays, {
+            collapsed: false,
+            position: 'topright'
+        }).addTo(baseMap);
     }
 
      // --------------------------------------------------------------------------------   
@@ -106,12 +109,14 @@
             magnitude = property.mag
 
             marker = L.circle([longitude, latitude], {
-                title: property.place,
-                opacity: 1,
-                fillOpacity: 0.60,                
-                color: getColor(depth),
+                opacity: 4,
+                fillOpacity: 0.5,                
+                color: 'black',
                 fillColor: getColor(depth),
-                radius: magnitude * 8000 + 10})
+                radius: magnitude * 9000 + 1000,
+                stroke: true,                
+                weight: 0.2
+            })
             .addTo(quakesLayer);
 
             marker.bindPopup(`<h2>${property.place}</h2><h3>Magnitude: ${magnitude}</h3><h3>Depth: ${depth} km</h3>`);
