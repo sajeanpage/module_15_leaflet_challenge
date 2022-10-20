@@ -1,7 +1,7 @@
 # Module 15 Leaflet Challenge
 ## Summary
 
-The United States Geological Survey (USGS), is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. I have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations on issues facing our planet.  
+The United States Geological Survey (USGS), is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. For this challenge, I have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations on issues facing our planet.  
 - Visit the final form here:  https://sajeanpage.github.io/module_15_leaflet_challenge/
 
 # ![banner](Images/topo_map.PNG)
