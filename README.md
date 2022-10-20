@@ -9,7 +9,7 @@ The United States Geological Survey (USGS), is responsible for providing scienti
   - interactive maps of the US and World
   - several styles choices of visual map layers 
   - selectable overlays of earthquake data and tectonic plate boundaries
-  - responsive popup marker of earthquake facts
+  - responsive popup markers of earthquake facts
   - a color coded legend of earthquake magnitudes
  
 - Key technologies include:
