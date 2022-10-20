@@ -22,4 +22,4 @@ Viewing belly button bacteria data is informative but, visualizing that data giv
 
 - References
   - USGS, U.S. Geological Survey. (2022). Past 7 Days All Earthquakes. Retrieved from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-  - Hugo Ahlenius, Github Tectonic Plates. (October 2, 2014). PB2002_boundaries GeoJson Data. Retrieved from https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+  - Hugo Ahlenius, Github Tectonic Plates GeoJson. (October 2, 2014). PB2002_boundaries data. Retrieved from https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
