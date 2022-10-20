@@ -4,7 +4,7 @@
 Viewing belly button bacteria data is informative but, visualizing that data gives a perspective of diversity and scale that viewing data can not. In this challenge I built an interactive web page that allows viewers to easily visualizing belly button bacteria data.  
 - Visit the final form here:  https://sajeanpage.github.io/module_14_belly_button_challenge/
 
-# ![banner](images/belly.PNG)
+# ![banner](Images/topo_map.PNG)
 - The site contains:
   - interactive maps of the US and World
   - several styles choices of visual map layers 
